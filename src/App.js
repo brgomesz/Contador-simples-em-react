@@ -20,14 +20,14 @@ function App() {
   }
 
   const resset = () => {
-    setCount(count == 0)
+    setCount(0)
   }
 
   // Aqui abaixo vai o que seria o HTML
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Contador simples</h1>
+        <h1>Contador</h1>
         <div className="counter">
           <button onClick={decrement10}> -10 </button>
           <button onClick={decrement}>-1</button>
